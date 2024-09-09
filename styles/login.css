@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 237, 250);
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+.header {
+    background: var(--color-gradient)
+}
+
+.header__wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.form {
+    margin: 0px 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.form__input {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.input input {
+    width: 400px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.form_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button button {
+    width: 190px;
+    height: 60px;
+    border-radius: 15px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.button_register button {
+    background-color: rgb(187, 223, 255);
+    border-width: 3px;
+    border-color: rgb(105, 184, 253);
+    border-style: solid;
+}
+
+.button_login button {
+    border: none;
+    background-color: var(--color-main);
+}
+
+.button_login button:hover {
+    background-color: #0d9aff;
+}
+
+.button_login button:active {
+    background-color: #1b79bd;
+}
+
+.button_register button:hover {
+    background-color: #0d9aff;
+}
+
+.button_register button:active {
+    background-color: #1b79bd;
+}

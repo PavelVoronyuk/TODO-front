@@ -1,0 +1,4 @@
+:root {
+    --color-main: #29a6ff;
+    --color-gradient: linear-gradient(270deg, rgba(0, 125, 207, 1) 0%, rgba(57, 183, 247, 1) 50%, rgba(185, 240, 255, 1) 100%);
+}

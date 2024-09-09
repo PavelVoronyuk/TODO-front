@@ -1,0 +1,144 @@
+/* BASE SETTINGS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 237, 250);
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+/*HEADER*/
+
+.header {
+    background: var(--color-gradient)
+}
+
+.header__wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* REG LOG BUTTONS*/
+.button button {
+    width: 140px;
+    height: 45px;
+    border-radius: 15px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.button_login {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.button_login button {
+    border: none;
+    background-color: var(--color-main);
+}
+
+.button_login button:hover {
+    background-color: #0d9aff;
+}
+
+.button_login button:active {
+    background-color: #1b79bd;
+}
+
+/* MAIN */
+
+.main {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 35px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.list {
+    background-color: rgb(231, 240, 253);
+    width: 40%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(175, 196, 228);
+    border-radius: 20px;
+    font-size: 18px;
+    max-height: 500px;
+    overflow-y: auto;
+    padding-right: 10px;
+    margin-right: -10px;
+    scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0);
+}
+
+.list b {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 0 0;
+
+}
+
+.list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.list>ul>li {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+    padding-right: 2em
+}
+
+/* SCROLL-BAR */
+
+.list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.scrollable-list::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+/* ADD BUTTONS */
+.add_button {
+    width: 452px;
+    height: 60px;
+    border-radius: 15px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(187, 223, 255);
+    border: none;
+    background-color: var(--color-main);
+}
+
+.add_button:hover {
+    background-color: #0d9aff;
+}
+
+.add_button:active {
+    background-color: #1b79bd;
+}
